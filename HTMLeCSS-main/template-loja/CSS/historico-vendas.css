@@ -45,6 +45,7 @@ button {
     color: white;
     border: none;
     padding: 10px 20px;
+    cursor: pointer;
     border-radius: 5px;
 }
 
@@ -52,5 +53,4 @@ footer {
     background-color: #d6c1b1;
     padding: 10px;
     text-align: center;
-    background-size: cover;
 }
