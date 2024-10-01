@@ -10,9 +10,7 @@
 
 <body>
     <header>
-        <div>
-            <p>Lant&Joulas</p>
-        </div>
+        <h1>Lant&Joulas</h1>
         <nav>
             <a href="index.html">Página Inicial</a>
             <a href="ctrl-estoque.html">Controle de Estoque</a>
@@ -26,7 +24,7 @@
         <section>
             <h2>Histórico de Vendas</h2>
             <form>
-                <label>Venda efetuada por:</label></br>
+                <label>Funcionário:</label></br>
                 <select id="funcionario">
                     <option></option>
                     <option value="maria">Maria</option>
@@ -37,17 +35,25 @@
                 </br>
                 </br>
 
+                <label for="pagamento">Forma de Pagamento:</label>
+                <select id="pagamento" name="pagamento">
+                    <option></option>
+                    <option value="dinheiro">Dinheiro</option>
+                    <option value="cartao">Cartão</option>
+                </select>
+
                 <label for="data">Data:</label>
                 <input type="date" id="data" name="data">
 
                 <label for="hora">Hora:</label>
                 <input type="time" id="hora" name="hora">
+            </br>
+            </br>
 
                 <button type="submit">Filtrar</button>
             </form>
         </section>
     </main>
-
     <footer>
         <p>&copy; 2024 Lant&Joulas | Onde há lantejoulas, há glamour.</p>
     </footer>
